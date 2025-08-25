@@ -277,7 +277,6 @@ body {
   }
   .active {
     .mob {
-      transform: translateX(-50%);
       opacity: 1;
       visibility: visible;
     }
@@ -315,7 +314,6 @@ body {
       transition: 0.65s ease;
       opacity: 0;
       visibility: hidden;
-      transform: translateX(50%);
       nav {
         margin-top: 50px;
         width: 100%;
@@ -351,6 +349,12 @@ body {
             color: var(--gray-500);
             cursor: pointer;
             transition: 0.8s ease all;
+            .down {
+              display: none;
+            }
+            .up {
+              display: none;
+            }
             &:hover {
               color: black;
               font-weight: var(--bold);
