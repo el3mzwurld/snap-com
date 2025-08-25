@@ -654,16 +654,16 @@ body {
             color: var(--gray-500);
             cursor: pointer;
             transition: 0.8s ease all;
-            &:hover {
-              color: black;
-              font-weight: var(--bold);
-            }
             .down {
               display: none;
             }
 
             .up {
               display: none;
+            }
+            &:hover {
+              color: black;
+              font-weight: var(--bold);
             }
 
             .sub-list {
