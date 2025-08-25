@@ -277,7 +277,7 @@ body {
   }
   .active {
     .mob {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
       opacity: 1;
       visibility: visible;
     }
@@ -315,7 +315,7 @@ body {
       transition: 0.65s ease;
       opacity: 0;
       visibility: hidden;
-      transform: translateX(100%);
+      transform: translateX(50%);
       nav {
         margin-top: 50px;
         width: 100%;
